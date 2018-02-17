@@ -1,7 +1,15 @@
 body {
     font-family: Helvetica;
     background-color: #e4f1fb;
+    padding: 1em;
 }
+
+nav {
+    background-color: #cde4f5;
+    padding-left: auto;
+    padding-right: auto;
+}
+
 nav li {
     list-style-type: none;
     display: inline-block;
@@ -9,4 +17,16 @@ nav li {
     border-radius: 0.25em;
     margin: 0.1em;
     background-color: #b5d4ec;
+}
+
+nav a:link {
+    font-color: #000;
+}
+
+.footer {
+    background-color: #cde4f5;
+}
+.footer p {
+    font-size: 0.8em;
+    margin: 0;
 }
