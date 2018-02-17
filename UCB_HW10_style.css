@@ -1,6 +1,12 @@
 body {
     font-family: Helvetica;
+    background-color: #e4f1fb;
 }
 nav li {
     list-style-type: none;
+    display: inline-block;
+    padding: 0.25em;
+    border-radius: 0.25em;
+    margin: 0.1em;
+    background-color: #b5d4ec;
 }
