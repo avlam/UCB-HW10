@@ -16,17 +16,6 @@ nav .narrow{
     display: none;
 }
 
-@media (max-width: 710px) {
-    nav .wide {
-        display: none;
-    }
-    
-    nav .narrow {
-        display: block;
-    }
-}
-nav
-
 nav ul{
     margin: 0;
     margin-left: auto;
@@ -45,6 +34,20 @@ nav li {
 nav a{
     font-color: #000;
     text-decoration: none;
+}
+
+@media (max-width: 710px) {
+    nav .wide {
+        display: none;
+    }
+    
+    nav .narrow {
+        display: block;
+    }
+    
+    nav .narrow li{
+        display: block;
+    }
 }
 
 .footer {
