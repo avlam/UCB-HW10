@@ -12,6 +12,21 @@ nav {
     text-align: right;
 }
 
+nav .narrow{
+    display: none;
+}
+
+@media (max-width: 710px) {
+    nav .wide {
+        display: none;
+    }
+    
+    nav .narrow {
+        display: block;
+    }
+}
+nav
+
 nav ul{
     margin: 0;
     margin-left: auto;
