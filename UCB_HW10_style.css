@@ -37,6 +37,14 @@ nav a{
     text-decoration: none;
 }
 
+ul.wide{
+    margin: 0;
+}
+
+ul.narrow{
+    margin: 0;
+}
+
 @media(max-width: 710px){
     nav .wide{
         display: none;
