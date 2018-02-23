@@ -39,10 +39,12 @@ nav a{
 
 ul.wide{
     margin: 0;
+    padding: 0;
 }
 
 ul.narrow{
     margin: 0;
+    padding: 0;
 }
 
 @media(max-width: 710px){
