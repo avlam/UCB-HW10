@@ -2,6 +2,7 @@ body {
     font-family: Helvetica;
     background-color: #e4f1fb;
     padding: 0;
+    padding-bottom: 5em;
 }
 
 nav {
@@ -58,7 +59,7 @@ nav a{
     display: block;
     position: fixed;
     bottom: 0;
-    margin: 0.5em;
+    width: 100%;
 }
 
 .footer p {
