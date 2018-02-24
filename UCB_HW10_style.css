@@ -47,6 +47,10 @@ a.dropdown-item{
     margin: 0.5em;
 }
 
+h1{
+    padding-left: 1em;
+}
+
 th{
     padding: 0.25em;
 }
