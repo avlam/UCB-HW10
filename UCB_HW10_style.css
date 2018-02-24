@@ -21,6 +21,7 @@ nav ul{
     margin: 0;
     margin-left: auto;
     margin-right: auto;
+    padding: 0;
 }
 
 nav li{
@@ -35,16 +36,6 @@ nav li{
 nav a{
     font-color: #000;
     text-decoration: none;
-}
-
-ul.wide{
-    margin: 0;
-    padding: 0;
-}
-
-ul.narrow{
-    margin: 0;
-    padding: 0;
 }
 
 @media(max-width: 710px){
