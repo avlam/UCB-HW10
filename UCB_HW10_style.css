@@ -45,6 +45,10 @@ a.dropdown-item{
     margin: 0.5em;
 }
 
+th{
+    padding: 0.25em;
+}
+
 .footer{
     background-color: #cde4f5;
     text-align: center;
