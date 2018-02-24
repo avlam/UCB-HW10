@@ -35,7 +35,7 @@ nav a{
 }
 
 @media(min-width:768px;){
-    .navbar-toggler{
+    button.navbar-toggler{
         display:none;
     }
 }
