@@ -13,10 +13,6 @@ nav{
     text-align: right;
 }
 
-nav .narrow{
-    display: none;
-}
-
 nav ul{
     margin: 0;
     margin-left: auto;
@@ -38,19 +34,8 @@ nav a{
     text-decoration: none;
 }
 
-@media(max-width: 710px){
-    nav .wide{
-        display: none;
-    }
-    
-    nav .narrow{
-        display: block;
-        text-align: left;
-    }
-    
-    nav .narrow li{
-        display: block;
-    }
+a.dropdown-item{
+    display: block;
 }
 
 .footer{
