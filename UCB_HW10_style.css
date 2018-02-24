@@ -49,6 +49,14 @@ th{
     padding: 0.25em;
 }
 
+body img{
+    text-align: center;
+}
+
+body table{
+    background-color: #fff;
+}
+
 .footer{
     background-color: #cde4f5;
     text-align: center;
