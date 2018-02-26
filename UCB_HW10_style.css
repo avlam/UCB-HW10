@@ -55,7 +55,8 @@ th{
     padding: 0.25em;
 }
 
-body img{
+img{
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }
