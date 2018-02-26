@@ -3,7 +3,7 @@
     <head lang="en-us">
         <meta charset="utf-8" />
         <title>UCBE HW 10</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="UCB_HW10_style.css" />
         <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script> -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -12,39 +12,15 @@
         <script src="https://www.w3schools.com/lib/w3.js"></script>
     </head>
     <body>
-        <!--
-            Requirements: 
-                Use of Bootstrap
-                Responsive to window size and device
-
-            7 Pages:
-            Index
-            4 Visualization and summary pages
-            Comparisons Page
-            Data Page
-
-            Anatomy of site:
-                Navbar
-                Footer
-
-        -->
         <h1>UCBE HW 10 Submission</h1>
         <div w3-include-html="navigation.html"></div>
         <div class="container">
             <div class="col-md-12">
-        <h2> Overview</h2>
-        <link rel="import" href="Weather_Data.html">
-        <p>Ut maximus elit ut dapibus vehicula. Duis malesuada dictum egestas. Fusce velit lectus, laoreet id purus ac, imperdiet vulputate ligula. Etiam a magna nunc. Vivamus auctor quam quam, id congue lectus efficitur at. Praesent auctor nulla at lectus auctor, sed ullamcorper velit molestie. Ut vel dapibus ligula. Praesent cursus porta tellus mollis porta. Proin sit amet purus ut augue placerat consequat non sed libero. Nullam vulputate nisi sed dictum sagittis. Nam gravida eros ac metus tristique, sed aliquet lectus interdum. Nam tincidunt erat non tortor tempor scelerisque. Pellentesque tincidunt maximus leo, vitae pellentesque urna tincidunt in. Proin in vulputate nulla. Duis vel rhoncus eros. Duis aliquam semper velit, non dapibus purus pellentesque et.</p>
-
-
-        <p>Nunc rutrum vel urna eget viverra. Proin lobortis nulla et posuere dictum. Aenean at vulputate turpis. Ut a scelerisque massa. Etiam volutpat velit id nulla porta, id porttitor tortor hendrerit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque luctus justo dignissim libero consequat dictum. Vivamus dapibus congue tortor eu luctus.</p>
-        <p>In ut ultricies velit. Quisque bibendum sapien sit amet viverra tincidunt. Nunc ultrices volutpat eros molestie porttitor. Duis augue justo, congue in feugiat aliquam, venenatis quis felis. Vestibulum scelerisque finibus ex, et malesuada enim sollicitudin quis. Vivamus nec orci eu ante luctus commodo vel vitae quam. Sed aliquam elit at dignissim venenatis.</p>
-        
+                <h2>Temperature vs. Latitude</h2>
+                <img src="images/Temp_Lat.png" alt="Plot of temperature vs. latitude" />
+                <p>The rough shape of the scatterplot denoting temperature as a function of latitude shows a parabolic trend with a local maxima just south of 0. Since the equator is delineated as 0 degrees latitude, this supports the statement that temperature will generally rise as one travels towards the equator.</p>
             </div>
         </div>
-            <!--
-        <div w3-include-html="Weather_Data.html"></div>
--->
         <div w3-include-html="footer.html" class="footer"></div>
         <script>
             w3.includeHTML();
